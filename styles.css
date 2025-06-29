@@ -1,4 +1,4 @@
-h1 {
+header {
 	text-align: center;
 }
 
@@ -7,43 +7,181 @@ h1 {
 	text-align: right;
 }
 
-
-#container {
-	display: flex;
-	justify-content: space-between;
+#navbar a {
+	text-decoration: none;
 }
 
 
-.bio {
-	padding-left: 800px;
-	padding-right: 100px;
+#navbar a.active {
+	text-decoration: underline;	
 }
 
 
-.image {
-	padding-left: 100px;
+.atomic-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 4px;
+  background-color: #DA9B7E;  
+  color: white;               
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.atomic-button:hover {
+  	color: Maroon;
+   
+}
+
+
+#intro-section {
+	background-color: #EDEAE3;
+	margin-top: 2%;
+}
+
+
+
+.vacation img {
+	position: relative;
+	margin-left: 15%;
+	transform: translateY(-30px);
+	box-shadow: 10px 10px 5px Black;
+}
+
+
+
+.story {
+  position: relative;
+  transform: translateY(-400px);
+  padding-left: 50%;
+}
+
+
+.story p {
+  font-size: 1.5rem; 
+  line-height: 1.4;   
+}
+
+
+.bold {
+	font-weight: bold;
+	font-size: 30px;
+	font-style: italic;
 }
 
 
 #image-gallery {
+ 	
+	  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 1px;
+  background-color: Black;
+  padding: 1px;
+  margin-bottom: 1%;
+  transform: translateY(-90px);
+  box-shadow: 5px 10px 18px #DA9B7E;
+}
+
+#image-gallery > div {
+  background-color: #faf8f5;
+  text-align: center;
+  padding: 10px 0;
+}
+
+#image-gallery h3 {
+	
+	transform: translateY(10px);
+	color: Black;
+	font-style: italic;
+}
+
+#image-gallery p {
+	transform: translateY(100px);
+}
+
+figure img {
+  box-shadow: 5px 10px  Black;
+  background-color: #EDEAE3;
+transform: translateY(60px);
+}
+
+
+/*about*/
+
+
+#background {
+	background-color: #EDEAE3;
+	margin-top: 2%;
 	display: flex;
-	justify-content: space-between;
-	padding-top: 100px;
+  justify-content: space-between;
+  box-shadow: 5px 10px 18px #DA9B7E;
 }
 
 
-.story {
-	padding-left: 800px;
-	padding-right: 100px;
+.bio p {
+  position: relative;
+  transform: translateY(-20px);
+  padding-left: 40%;
+  padding-right: 10%;
 }
 
 
-#container {
-  background-color: #ffffff;
-  padding: 40px;
-  margin: 40px auto;
-  max-width: 4000px;
-  border: 1px solid #ccc;
-  border-radius: 12px;
+.portrait {
+	position: relative;
+	margin-left: 10%;
+	transform: translateY(30px);
+}
+	
+
+.bio {
+  font-size: 1.3rem; 
+  line-height: 1.4; 
+}
 
 
+.intro {
+	text-indent: 50px;
+}
+
+
+.bio h2 {
+	text-align: center;
+	padding-left: 28%;
+	font-style: italic;
+}
+
+footer {
+	text-align: right;
+}
+
+#image-gallery2 {
+	background-color: #EDEAE3;
+	margin-top: 2%;
+	  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 1px;
+  background-color: Black;
+  padding: 1px;
+  margin-bottom: 1%;
+box-shadow: 5px 10px 18px #DA9B7E; 
+   
+}
+
+#image-gallery2 > div {
+  background-color: #EDEAE3;
+  text-align: center;
+  padding: 10px 0;
+  
+}
+
+#image-gallery2 h3 {
+transform: translateY(100px);
+	color: Black;
+	font-style: italic;
+}
+
+footer1 {
+	text-align: center;
+	padding-left: 47%;
+}
